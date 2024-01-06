@@ -18,6 +18,7 @@
 }
 
 .btn-secondary {
+
     width: 170.106px;
     height: 64px;
     border-radius: 8px;
@@ -30,7 +31,6 @@
     width: 100%;
     background-size: cover;
     height: 808px;
-    margin-bottom: 140px;
 }
 
 .header-info {
@@ -62,7 +62,6 @@
     display: flex;
     align-items: center;
     gap: 100px;
-    margin: 140px 0 140px 0;
 }
 
 .profile-text,
@@ -104,12 +103,6 @@ main {
     padding-bottom: 20px;
 }
 
-/* my plan section */
-/* .my-plan-container{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-} */
 .plan-header {
     text-align: center;
     color: #151414;
@@ -144,4 +137,42 @@ main {
     color: #737272;
     font-size: 25px;
     font-weight: 500;
+}
+
+main section {
+    margin-top: 90px;
+}
+
+.call-to-action{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 140px;
+}
+.cta-bg {
+    background-image: url('../images/gradient2.png'), url(../images/watch.png);
+    mix-blend-mode: overlay;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+}
+
+.cta-info {
+    width: 459px;
+    padding: 60px;
+}
+
+.cta-info h1 {
+    margin-bottom: 24px;
+}
+
+.cta-text {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn-secondary {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
 }
