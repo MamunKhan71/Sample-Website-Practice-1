@@ -143,11 +143,12 @@ main section {
     margin-top: 90px;
 }
 
-.call-to-action{
-   display: flex;
-   justify-content: center;
-   margin-bottom: 140px;
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
 }
+
 .cta-bg {
     background-image: url('../images/gradient2.png'), url(../images/watch.png);
     mix-blend-mode: overlay;
@@ -175,4 +176,62 @@ main section {
     color: #F15B22;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 577px;
+    background-color: #151414;
+}
+
+.footer-details {
+    padding: 130px 230px 130px 230px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.first-description,
+.first-email,
+.first-phone {
+    color: #FFF;
+    width: 485px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.first-title,
+.first-description,
+.first-email,
+.first-phone {
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    display: flex;
+    gap: 15px;
+}
+
+.second-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    background-color: #151414;
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    padding-left: 20px;
+    display: block;
+    margin: 30px 0px 15px 0px;
 }
