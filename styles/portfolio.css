@@ -30,6 +30,7 @@
     width: 100%;
     background-size: cover;
     height: 808px;
+    margin-bottom: 140px;
 }
 
 .header-info {
@@ -37,19 +38,59 @@
     display: flex;
     justify-content: right;
     padding: 216px 230px 0 0;
-    
+
 }
 
 .header-text {
     max-width: 525px;
 }
 
-.header-title, .header-description, .btn-primary{
+.header-title,
+.header-description,
+.btn-primary {
     margin-bottom: 20px;
 }
+
 .header-title {
 
     font-size: 65px;
     font-weight: 700;
     color: #151414;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.profile-text {
+    max-width: 416px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.profile-description {
+    max-width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul{
+    padding-left: 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+/* main section  */
+main {
+    padding: 0 230px 0 230px;
+}
+.tik-mark{
+    color: lightgreen;
+}
+.profile-text, .profile-description, .list{
+    padding-bottom: 20px;
 }
