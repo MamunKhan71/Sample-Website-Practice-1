@@ -62,9 +62,11 @@
     display: flex;
     align-items: center;
     gap: 100px;
+    margin: 140px 0 140px 0;
 }
 
-.profile-text {
+.profile-text,
+.my-plan-title {
     max-width: 416px;
     font-weight: 700;
     font-size: 40px;
@@ -77,20 +79,69 @@
     font-size: 16px;
     font-weight: 400;
 }
-ul{
+
+ul {
     padding-left: 0;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-bottom: 8px;
 }
+
 /* main section  */
 main {
     padding: 0 230px 0 230px;
 }
-.tik-mark{
+
+.tik-mark {
     color: lightgreen;
 }
-.profile-text, .profile-description, .list{
+
+.profile-text,
+.profile-description,
+.list {
     padding-bottom: 20px;
+}
+
+/* my plan section */
+/* .my-plan-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} */
+.plan-header {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skill-img {
+    width: 92.958px;
+    height: 92.958px;
+}
+
+.plan-header {
+    margin-bottom: 55px;
+}
+
+.skill-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.skill-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
